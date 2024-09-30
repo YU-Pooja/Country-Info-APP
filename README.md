@@ -43,10 +43,10 @@ Ensure that you have the following installed on your machine:
  Clone the Repository
 
 bash
-git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-backend.git
-cd country-info-backend
-npm install //By this all teh dependencies will get cread and node_module willl also added in the project.
-npx tsc // use this command to compile and generate the JS file.
+- git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-backend.git
+- cd country-info-backend
+- npm install //By this all teh dependencies will get cread and node_module willl also added in the project.
+- npx tsc // use this command to compile and generate the JS file.
 Now the Backend is ready to run in local.
 
 # Country Information App - Frontend
@@ -73,8 +73,8 @@ This project is the frontend for the **Country Information App**, a React-based 
 ## Installation and Setup
 
 **Clone the repository**:
-   git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-frontend.git
-   cd country-info-frontend
-   npm install
-   npm start
+   - git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-frontend.git
+   - cd country-info-frontend
+   - npm install
+   - npm start
 Now the frontedn will up and run in local.
