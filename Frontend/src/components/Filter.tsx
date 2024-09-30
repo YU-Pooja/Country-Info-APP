@@ -23,7 +23,7 @@ const Filter: React.FC = () => {
     setLoading(true);
 
     try {
-      const response = await axios.get(`http://localhost:3001/countries?_page=${page}&_limit=${LIMIT}`);
+      const response = await axios.get(`https://country-info-app-qodo.onrender.com/countries?_page=${page}&_limit=${LIMIT}`);
       const newRegions = response.data.map((country: any) => country.region);
       const uniqueRegions = Array.from(new Set([...regions, ...newRegions]));
       setRegions(uniqueRegions);
