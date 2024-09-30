@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001'; // Backend URL
+const BASE_URL = 'https://country-info-app-qodo.onrender.com'; // Backend URL
 
 
 export interface Country {
