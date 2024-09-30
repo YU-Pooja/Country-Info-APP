@@ -40,14 +40,14 @@ Ensure that you have the following installed on your machine:
 - [npm](https://www.npmjs.com/) (or [yarn](https://yarnpkg.com/))
 
 ## Setup Instructions
-### Clone the Repository
+ Clone the Repository
 
-```bash
+bash
 git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-backend.git
 cd country-info-backend
 npm install //By this all teh dependencies will get cread and node_module willl also added in the project.
 npx tsc // use this command to compile and generate the JS file.
-Now the BAckend is ready to run in local.
+Now the Backend is ready to run in local.
 
 # Country Information App - Frontend
 This project is the frontend for the **Country Information App**, a React-based web application that displays details of countries with features such as search, filter, infinite scroll, and detailed country pages. The frontend is built using **React**, **TypeScript**, **Tailwind CSS**, and **React Router**.
@@ -73,8 +73,8 @@ This project is the frontend for the **Country Information App**, a React-based 
 ## Installation and Setup
 
 **Clone the repository**:
-   ```bash
    git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-frontend.git
    cd country-info-frontend
    npm install
    npm start
+Now the frontedn will up and run in local.
