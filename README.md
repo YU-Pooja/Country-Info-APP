@@ -43,9 +43,38 @@ Ensure that you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/country-info-backend.git
+git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-backend.git
 cd country-info-backend
 npm install //By this all teh dependencies will get cread and node_module willl also added in the project.
 npx tsc // use this command to compile and generate the JS file.
 Now the BAckend is ready to run in local.
 
+# Country Information App - Frontend
+This project is the frontend for the **Country Information App**, a React-based web application that displays details of countries with features such as search, filter, infinite scroll, and detailed country pages. The frontend is built using **React**, **TypeScript**, **Tailwind CSS**, and **React Router**.
+
+## Features
+
+- **Country List Page**: Displays a list of countries with their flags, names, and regions.
+- **Search Functionality**: Search countries by name, region, or other attributes.
+- **Filter by Region**: Filter the list of countries based on region.
+- **Lazy Loading & Infinite Scroll**: Automatically loads more countries as the user scrolls down.
+- **Responsive Design**: Optimized for mobile and desktop views with a responsive navbar.
+- **Country Detail Page**: Shows detailed information about each country, including population, region, languages, currencies, and more.
+
+## Tech Stack
+
+- **Frontend Framework**: React.js
+- **State Management**: React Hooks, Context API
+- **Styling**: Tailwind CSS
+- **Routing**: React Router
+- **TypeScript**: For type safety and improved developer experience
+- **API Integration**: Fetches country data from the backend
+
+## Installation and Setup
+
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/YU-Pooja/Country-Info-APP/country-info-frontend.git
+   cd country-info-frontend
+   npm install
+   npm start
