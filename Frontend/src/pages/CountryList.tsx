@@ -21,7 +21,7 @@ const CountryList: React.FC<CountryListProps> = ({ searching }) => {
   const fetchCountries = async (page: number) => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:3001/countries?_page=${page}&_limit=${LIMIT}`);
+      const response = await axios.get(`https://country-info-app-qodo.onrender.com/countries?_page=${page}&_limit=${LIMIT}`);
       const newCountries = response.data;
       setCountries((prevCountries) => [...prevCountries, ...newCountries]);
 
